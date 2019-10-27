@@ -1,0 +1,40 @@
+#right {
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-right-s.png");
+}
+
+#left {
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-left-s.png");
+}
+
+#mid {
+  background-image: url("https://www.xn--b3caa1e2a7e2b0h2be.com/img/hero_banner/banner-center-s.png");
+}
+.stack {
+  position: relative;
+  margin-top: 64px;
+  height: 25vw;
+}
+
+.stack > div {
+  position: absolute;
+  top: 0;
+}
+
+.banner .container-fluid,
+.banner .container-fluid .row {
+  height: 25vw;
+}
+
+.banner .col {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner .logo {
+  display: flex;
+  justify-content: center;
+}
+
+.banner .logo img {
+  width: 15vw;
+}

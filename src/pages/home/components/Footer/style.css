@@ -1,0 +1,30 @@
+footer > .container-fluid:first-child {
+  padding: 44px 30px;
+  background-color: #fafafa;
+  font-family: "TATSanaSuksa";
+}
+
+footer > .container-fluid:nth-child(2) {
+  padding: 0.7em 30px;
+  background-color: #213a8f;
+  font-size: 0.95em;
+  color: white;
+  font-weight: bold;
+}
+
+footer .row > div {
+  padding-bottom: 10px;
+}
+footer img {
+  width: 108px;
+  margin-bottom: 12px;
+}
+footer h4 {
+  font-family: "TATSanaSuksa";
+  font-size: 1em;
+  color: #e6332a;
+}
+footer p {
+  font-family: "TATSanaSuksa";
+  font-size: 0.9em;
+}
