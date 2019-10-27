@@ -14,7 +14,10 @@ export const Banner: React.FC = () => {
           </Row>
         </Container>
         <div className="logo w-100 h-100 d-flex align-items-center">
-          <img src="https://www.ชิมช้อปใช้.com/img/logo/banner.png" />
+          <img
+            alt="Banner"
+            src="https://www.ชิมช้อปใช้.com/img/logo/banner.png"
+          />
         </div>
       </div>
     </div>

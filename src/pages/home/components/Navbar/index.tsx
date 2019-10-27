@@ -1,5 +1,4 @@
 import React from "react";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./style.css";
@@ -11,6 +10,7 @@ export const CustomNavbar: React.FC<{
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" fixed="top">
       <Navbar.Brand href="#home">
         <img
+          alt="Logo"
           className="d-xs-inline d-lg-none"
           src="https://www.ชิมช้อปใช้.com/img/logo/footer.png"
         />

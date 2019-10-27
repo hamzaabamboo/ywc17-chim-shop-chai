@@ -9,7 +9,10 @@ export const Footer: React.FC = () => {
         <Container>
           <Row>
             <Col xs={12} md={3}>
-              <img src="https://www.ชิมช้อปใช้.com/img/logo/footer.png" />
+              <img
+                alt="Logo"
+                src="https://www.ชิมช้อปใช้.com/img/logo/footer.png"
+              />
             </Col>
             <Col xs={12} md={3}>
               <h4>ข้อมูลลงทะเบียนประชาชน</h4>

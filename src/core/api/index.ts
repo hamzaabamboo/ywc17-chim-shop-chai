@@ -1,5 +1,5 @@
 import { ajax } from "rxjs/ajax";
-import { map, catchError } from "rxjs/operators";
+import { catchError } from "rxjs/operators";
 import { of } from "rxjs";
 
 export const API_URL = "https://panjs.com/ywc.json";

@@ -6,9 +6,20 @@ import { Banner } from "./components/Banner";
 import { Footer } from "./components/Footer";
 import "./style.css";
 import { Container, Col, Row } from "react-bootstrap";
+import { map } from "rxjs/operators";
+import { purifier } from "../../core/library/purify";
 
 export const Home: React.FC = () => {
-  const res$ = getData<PanJSApiResponse>(API_URL);
+  const res$ = getData<PanJSApiResponse>(API_URL).pipe(
+    map(res => {
+      return {
+        ...res,
+        detail: purifier.sanitize(res.detail),
+        duration: purifier.sanitize(res.duration),
+        condition: purifier.sanitize(res.condition)
+      };
+    })
+  );
   const { navbarItems, detail, duration, condition } = useObservable<
     PanJSApiResponse
   >(() => res$, {
@@ -60,35 +71,62 @@ export const Home: React.FC = () => {
       <Container>
         <Row className="call-centers">
           <Col xs={12} md={4}>
-            <img src="https://www.ชิมช้อปใช้.com/img/Banner_KTB_SQ.png" />
+            <img
+              alt="KTB SQ "
+              src="https://www.ชิมช้อปใช้.com/img/Banner_KTB_SQ.png"
+            />
           </Col>
           <Col xs={12} md={4}>
-            <img src="https://www.ชิมช้อปใช้.com/img/Banner_CGD_Sq.png" />
+            <img
+              alt="CGD SQ"
+              src="https://www.ชิมช้อปใช้.com/img/Banner_CGD_Sq.png"
+            />
           </Col>
           <Col xs={12} md={4}>
-            <img src="https://www.ชิมช้อปใช้.com/img/Banner_TAT_Hotline_Sq.png" />
+            <img
+              alt="TAT SQ"
+              src="https://www.ชิมช้อปใช้.com/img/Banner_TAT_Hotline_Sq.png"
+            />
           </Col>
         </Row>
       </Container>
       <Container>
         <Row className="ministries">
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/MOF.png" />
+            <img
+              alt="MOF"
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/MOF.png"
+            />
           </Col>
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/FPO.png" />
+            <img
+              alt="FPO "
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/FPO.png"
+            />
           </Col>
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/CGD.png" />
+            <img
+              alt="CGD"
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/CGD.png"
+            />
           </Col>
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/Krungthai.png" />
+            <img
+              alt="Krungthai"
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/Krungthai.png"
+            />
           </Col>
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/MOTS.png" />
+            <img
+              alt="MOTS"
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/MOTS.png"
+            />
           </Col>
           <Col xs={4} md={2}>
-            <img src="https://www.ชิมช้อปใช้.com/img/brand-logo/TAT.png" />
+            <img
+              alt="TAT"
+              src="https://www.ชิมช้อปใช้.com/img/brand-logo/TAT.png"
+            />
           </Col>
         </Row>
       </Container>
