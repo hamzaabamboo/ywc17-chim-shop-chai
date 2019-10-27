@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ywc17-chim-shop-chai/static/css/main.599f463a.chunk.css",
+    "main.js": "/ywc17-chim-shop-chai/static/js/main.8559f135.chunk.js",
+    "main.js.map": "/ywc17-chim-shop-chai/static/js/main.8559f135.chunk.js.map",
+    "runtime-main.js": "/ywc17-chim-shop-chai/static/js/runtime-main.029d9861.js",
+    "runtime-main.js.map": "/ywc17-chim-shop-chai/static/js/runtime-main.029d9861.js.map",
+    "static/css/2.0624914a.chunk.css": "/ywc17-chim-shop-chai/static/css/2.0624914a.chunk.css",
+    "static/js/2.97dfec03.chunk.js": "/ywc17-chim-shop-chai/static/js/2.97dfec03.chunk.js",
+    "static/js/2.97dfec03.chunk.js.map": "/ywc17-chim-shop-chai/static/js/2.97dfec03.chunk.js.map",
+    "index.html": "/ywc17-chim-shop-chai/index.html",
+    "precache-manifest.ab2286db6226b575c990e68ca194cffa.js": "/ywc17-chim-shop-chai/precache-manifest.ab2286db6226b575c990e68ca194cffa.js",
+    "service-worker.js": "/ywc17-chim-shop-chai/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/ywc17-chim-shop-chai/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.599f463a.chunk.css.map": "/ywc17-chim-shop-chai/static/css/main.599f463a.chunk.css.map",
+    "static/media/index.css": "/ywc17-chim-shop-chai/static/media/TATSanaSuksa-Regular.f51f1b81.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.029d9861.js",
+    "static/css/2.0624914a.chunk.css",
+    "static/js/2.97dfec03.chunk.js",
+    "static/css/main.599f463a.chunk.css",
+    "static/js/main.8559f135.chunk.js"
+  ]
+}
