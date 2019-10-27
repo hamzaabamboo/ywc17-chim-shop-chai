@@ -2,7 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
-export const Footer: React.FC = () => {
+export const Footer: React.FC<{
+  links: { label: string; href: string }[];
+}> = ({ links }) => {
   return (
     <footer>
       <Container fluid>
@@ -47,15 +49,11 @@ export const Footer: React.FC = () => {
             <Col xs={12} md={3}>
               Copyright © 2003-2019
             </Col>
-            <Col xs={12} md={3}>
-              ลงทะเบียนเข้าร่วมมาตรการ
-            </Col>
-            <Col xs={12} md={3}>
-              ขั้นตอนการเข้าร่วมทั้งหมด
-            </Col>
-            <Col xs={12} md={3}>
-              รายชื่อร้านค้าที่เข้าร่วมรายการ
-            </Col>
+            {links.map(link => (
+              <Col key={link.href} xs={12} md={3}>
+                <a href={link.href}>{link.label}</a>
+              </Col>
+            ))}
           </Row>
         </Container>
       </Container>

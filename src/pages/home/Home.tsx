@@ -130,7 +130,7 @@ export const Home: React.FC = () => {
           </Col>
         </Row>
       </Container>
-      <Footer />
+      <Footer links={navbarItems} />
     </>
   );
 };

@@ -28,3 +28,12 @@ footer p {
   font-family: "TATSanaSuksa";
   font-size: 0.9em;
 }
+
+footer a,
+footer a:hover {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+}

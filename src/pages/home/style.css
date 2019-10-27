@@ -50,14 +50,11 @@
 
 .call-centers {
   margin-bottom: 128px;
-}
-
-.call-centers .col-* {
-  padding: 20px;
+  text-align: center;
 }
 
 .call-centers img {
-  width: 100%;
+  width: 80%;
 }
 
 .ministries {
