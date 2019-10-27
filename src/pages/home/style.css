@@ -19,6 +19,12 @@
   font-size: 1.2em;
 }
 
+.register-box hr {
+  position: relative;
+  top: -48px;
+  z-index: -1;
+}
+
 .btn.register:hover {
   background-color: #fbbc33;
   color: white;
@@ -56,9 +62,11 @@
 
 .ministries {
   margin-bottom: 48px;
+  text-align: center;
 }
 
 .ministries img {
-  height: 130px;
-  width: auto;
+  width: 100%;
+  max-width: 110px;
+  height: auto;
 }

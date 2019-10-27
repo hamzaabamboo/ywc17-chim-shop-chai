@@ -20,7 +20,7 @@ export const CustomNavbar: React.FC<{
         <Nav className="mx-auto">
           {links.map(link => (
             <Nav.Link key={link.href} href={link.href}>
-              {link.label}
+              <strong>{link.label}</strong>
             </Nav.Link>
           ))}
         </Nav>

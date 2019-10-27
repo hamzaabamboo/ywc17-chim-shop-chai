@@ -47,3 +47,7 @@ a.nav-link {
     background-color: #213a8f !important;
   }
 }
+
+.navbar-toggler {
+  border: none !important;
+}

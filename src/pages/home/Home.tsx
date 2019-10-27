@@ -34,6 +34,7 @@ export const Home: React.FC = () => {
             <br />
             (จำกัดผู้ลงทะเบียนรอบละ 5 แสนคน รวม 1 ล้านคนต่อวัน)
           </button>
+          <hr />
         </div>
       </div>
       <Container className="detail">

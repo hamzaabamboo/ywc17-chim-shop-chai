@@ -13,6 +13,7 @@
   position: relative;
   margin-top: 64px;
   height: 25vw;
+  min-height: 200px;
 }
 
 .stack > div {
@@ -23,6 +24,7 @@
 .banner .container-fluid,
 .banner .container-fluid .row {
   height: 25vw;
+  min-height: 200px;
 }
 
 .banner .col {
@@ -37,4 +39,5 @@
 
 .banner .logo img {
   width: 15vw;
+  min-width: 100px;
 }
