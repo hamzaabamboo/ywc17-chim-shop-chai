@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c39ceb933795044983d78e6fe4f0dfd",
+    "revision": "12e2ecadeddf67ed5781ca5db56c5658",
     "url": "/ywc17-chim-shop-chai/index.html"
   },
   {
-    "revision": "f91007e0a453d6c3c3bd",
-    "url": "/ywc17-chim-shop-chai/static/css/2.0624914a.chunk.css"
+    "revision": "cbe2a331859ecde60844",
+    "url": "/ywc17-chim-shop-chai/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "1bb2160488c2ffc199e5",
-    "url": "/ywc17-chim-shop-chai/static/css/main.2ba26752.chunk.css"
+    "revision": "778c058c0bc6d5baae80",
+    "url": "/ywc17-chim-shop-chai/static/css/main.224f53a4.chunk.css"
   },
   {
-    "revision": "f91007e0a453d6c3c3bd",
-    "url": "/ywc17-chim-shop-chai/static/js/2.38b11967.chunk.js"
+    "revision": "cbe2a331859ecde60844",
+    "url": "/ywc17-chim-shop-chai/static/js/2.d09f403c.chunk.js"
   },
   {
-    "revision": "1bb2160488c2ffc199e5",
-    "url": "/ywc17-chim-shop-chai/static/js/main.1508535f.chunk.js"
+    "revision": "778c058c0bc6d5baae80",
+    "url": "/ywc17-chim-shop-chai/static/js/main.b6644798.chunk.js"
   },
   {
-    "revision": "dff40fe7063d076d627c",
-    "url": "/ywc17-chim-shop-chai/static/js/runtime-main.029d9861.js"
+    "revision": "11f371823aa656209798",
+    "url": "/ywc17-chim-shop-chai/static/js/runtime-main.7ecd57a6.js"
   },
   {
     "revision": "45415b3d8382c9a11e16af5f88efab0e",
