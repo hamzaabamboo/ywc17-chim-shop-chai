@@ -8,16 +8,28 @@ export const Banner: React.FC = () => {
       <div className="stack">
         <Container fluid>
           <Row>
-            <Col id="left"></Col>
-            <Col id="mid"></Col>
-            <Col id="right"></Col>
+            <Col
+              id="left"
+              style={{
+                backgroundImage: `url("assets/hero_banner/banner-left.png")`,
+              }}
+            ></Col>
+            <Col
+              id="mid"
+              style={{
+                backgroundImage: `url("assets/hero_banner/banner-center.png")`,
+              }}
+            ></Col>
+            <Col
+              id="right"
+              style={{
+                backgroundImage: `url("assets/hero_banner/banner-right.png")`,
+              }}
+            ></Col>
           </Row>
         </Container>
         <div className="logo w-100 h-100 d-flex align-items-center">
-          <img
-            alt="Banner"
-            src="https://www.ชิมช้อปใช้.com/img/logo/banner.png"
-          />
+          <img alt="Banner" src="assets/logo/banner.png" />
         </div>
       </div>
     </div>

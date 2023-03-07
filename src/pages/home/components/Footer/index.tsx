@@ -11,10 +11,7 @@ export const Footer: React.FC<{
         <Container>
           <Row>
             <Col xs={12} md={3}>
-              <img
-                alt="Logo"
-                src="https://www.ชิมช้อปใช้.com/img/logo/footer.png"
-              />
+              <img alt="Logo" src="assets/logo/footer.png" />
             </Col>
             <Col xs={12} md={3}>
               <h4>ข้อมูลลงทะเบียนประชาชน</h4>
@@ -49,7 +46,7 @@ export const Footer: React.FC<{
             <Col xs={12} md={3}>
               Copyright © 2003-2019
             </Col>
-            {links.map(link => (
+            {(links || []).map((link) => (
               <Col key={link.href} xs={12} md={3}>
                 <a href={link.href}>{link.label}</a>
               </Col>

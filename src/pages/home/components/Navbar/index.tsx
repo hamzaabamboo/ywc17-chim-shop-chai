@@ -12,13 +12,13 @@ export const CustomNavbar: React.FC<{
         <img
           alt="Logo"
           className="d-xs-inline d-lg-none"
-          src="https://www.ชิมช้อปใช้.com/img/logo/footer.png"
+          src="assets/logo/footer.png"
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mx-auto">
-          {links.map(link => (
+          {(links || []).map((link) => (
             <Nav.Link key={link.href} href={link.href}>
               <strong>{link.label}</strong>
             </Nav.Link>
